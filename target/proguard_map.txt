@@ -1,0 +1,47 @@
+Main -> Main:
+    void <init>() -> <init>
+    void main(java.lang.String[]) -> main
+    void lambda$main$0() -> a
+SettingsFrame -> a:
+    javax.swing.JSpinner greenThreshold -> a
+    javax.swing.JSpinner yellowThreshold -> b
+    javax.swing.JButton greenBgBtn -> c
+    javax.swing.JButton yellowBgBtn -> d
+    javax.swing.JButton redBgBtn -> e
+    javax.swing.JButton greenTextBtn -> f
+    javax.swing.JButton yellowTextBtn -> g
+    javax.swing.JButton redTextBtn -> h
+    java.awt.Color greenBg -> i
+    java.awt.Color yellowBg -> j
+    java.awt.Color redBg -> k
+    java.awt.Color greenText -> l
+    java.awt.Color yellowText -> m
+    java.awt.Color redText -> n
+    javax.swing.JCheckBox autoStartCb -> o
+    javax.swing.JButton runBtn -> p
+    void <init>() -> <init>
+    void onRun(java.awt.event.ActionEvent) -> a
+    void createStartupBat() -> a
+    void lambda$new$5(java.awt.event.ActionEvent) -> b
+    void lambda$new$4(java.awt.event.ActionEvent) -> c
+    void lambda$new$3(java.awt.event.ActionEvent) -> d
+    void lambda$new$2(java.awt.event.ActionEvent) -> e
+    void lambda$new$1(java.awt.event.ActionEvent) -> f
+    void lambda$new$0(java.awt.event.ActionEvent) -> g
+TaskbarPingApp -> b:
+    int greenThreshold -> a
+    int yellowThreshold -> b
+    java.awt.Color greenBg -> c
+    java.awt.Color yellowBg -> d
+    java.awt.Color redBg -> e
+    java.awt.Color greenText -> f
+    java.awt.Color yellowText -> g
+    java.awt.Color redText -> h
+    javax.swing.JFrame frame -> i
+    java.util.concurrent.ScheduledExecutorService scheduler -> j
+    void <init>(int,int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color) -> <init>
+    void run(int,int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color) -> a
+    void updateIcon() -> a
+    int ping(java.lang.String) -> a
+    java.awt.image.BufferedImage drawIcon(int) -> a
+    void lambda$run$0(int,int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color) -> b
