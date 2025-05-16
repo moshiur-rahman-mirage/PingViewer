@@ -14,6 +14,9 @@ out/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
+# Maven build output
+/target/
+/*.jar
 
 ### NetBeans ###
 /nbproject/private/
