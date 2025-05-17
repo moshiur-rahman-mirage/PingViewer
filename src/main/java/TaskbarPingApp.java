@@ -74,7 +74,7 @@ public class TaskbarPingApp {
         scheduler.scheduleAtFixedRate(() -> {
             long before = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
             updateIcon();
-            printDetailedMemory();
+//            printDetailedMemory();
             long after = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
 
             if (after - before > 1 * 1024 * 1024) { // 2MB growth
